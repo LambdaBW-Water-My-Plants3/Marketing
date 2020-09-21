@@ -94,10 +94,14 @@ nav.accountLinks{
     background-color: white;
     color: black;
 }
+.headerImg{
+    max-height: 250px;
+    object-fit:cover;
+    overflow: hidden;
+}
 .headerImg img{
     width:100%;
     
-    margin-top: 0;
 }
 
 
