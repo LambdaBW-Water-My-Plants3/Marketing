@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none; 
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	box-sizing:border-box;
+    max-width:100%;
+    font-size: 62.5%;
+    background-color: #9DD1AB;
+    font-family: 'Crimson Text', serif;
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color:#22803B;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+.title{
+    background-color:#22803B;
+}
+h1{
+    font-size: 2.8rem;
+    font-weight:500;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width:100%;
+    margin:5%;
+    background-color:#22803B;
+}
+h1 a{
+    text-decoration: none;
+    color:white;
+    background-color: #22803B;
+}
+nav.links{
+    font-size: 2rem;
+    width:25%;
+    padding-top:1%;
+    background-color:#22803B;
+}
+.links a{
+    color:white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    margin:1% 2% 1% 2%;
+    background-color:#22803B;
+    padding:1%;
+}
+.links a:hover{
+    background-color: white;
+    color: #08521C;
+}
+nav.accountLinks{
+    font-size: 2rem;
+    font-weight:500;
+    width:10%;
+    text-align: center;
+    padding:1%;
+    background-color:#22803B;
+}
+.accountLinks a{
+    color:white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-decoration: none;
+    padding:1%;
+    background-color:#22803B;
+}
+.accountLinks a:hover{
+    background-color: white;
+    color: #08521C;
+}
+.headerImg{
+    max-height: 250px;
+    object-fit:cover;
+    overflow: hidden;
+}
+.headerImg img{
+    width:100%;
+}
+.mainContent{
+    margin:5% 3% 5% 3%;
+    
+}
+.mainContent img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50px;
+}
+.landscape{
+    max-height:1000px;
+    width:70%;
+    margin:0% auto 2% auto;
+}
+.usyou{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2% 0% 2% 0%;
+}
+.us h2{
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:#08521C;
+    margin-bottom: 2%;
+    text-align:center;
+}
+.us p{
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
+    color:white;
+    margin: auto 15% 2.5% 15%;
+}
+.iceBerg{
+    max-height:1000px;
+    width:70%;
+    margin:0% auto;
+}
+.ourApp{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2% 0% 2% 0%;
+}
+.ourApp h2{
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:#08521C;
+    margin-bottom: 2%;
+}
+.ourApp p{
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
+    color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mountain{
+    max-height:1000px;
+    width:70%;
+    margin:0% auto;
+}
+.you{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2% 0% 2% 0%;
+}
+.you h2{
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:#08521C;
+    margin-bottom: 2%;
+}
+.you p{
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
+    color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+footer div{
+    background-color:#22803B;
+}
+.footerLinks{
+    display:flex;
+    background-color:#22803B;
+    justify-content: space-between;
+}
