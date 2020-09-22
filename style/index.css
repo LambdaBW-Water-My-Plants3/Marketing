@@ -340,7 +340,7 @@ footer div {
 }
 
 
-/* styles for Article pages */
+/* styles for Articles pages */
 
 .plantCareSection,
 .bestTimeSection,
@@ -391,7 +391,7 @@ footer div {
 
 .plantCareSection h2,
 .plantCareText h3,
-.bestTimeSection h3,
+.bestTimeSection h2,
 .bestTimeText h3,
 .spurtsSection h2,
 .spurtsText h3,
@@ -406,8 +406,17 @@ footer div {
     text-align: center;
 }
 
-
-/*styles for best time to water page */
+.plantCareSection h2,
+.bestTimeSection h2,
+.spurtsSection h2,
+.potting101Section h2 {
+    margin: 2% 0;
+    font-size: 3.5rem;
+}
 
 
 /* Media queries starts here */
+
+@media (max-width: 600px) {}
+
+@media (max-width: 768px) {}
