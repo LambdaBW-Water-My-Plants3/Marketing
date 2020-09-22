@@ -137,25 +137,11 @@ nav.accountLinks{
     width:70%;
     margin:0% auto 2% auto;
 }
-.usyou{
+.us{
     display:flex;
     flex-direction: column;
     align-items: center;
     margin:2% 0% 2% 0%;
-}
-.us h2{
-    font-size: 3.5rem;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    color:#08521C;
-    margin-bottom: 2%;
-    text-align:center;
-}
-.us p{
-    font-size: 1.5rem;
-    font-weight:520;
-    line-height: 1.5;
-    color:white;
-    margin: auto 15% 2.5% 15%;
 }
 .iceBerg{
     max-height:1000px;
@@ -168,19 +154,20 @@ nav.accountLinks{
     align-items: center;
     margin:2% 0% 2% 0%;
 }
-.ourApp h2{
+.mainContent div h2{
     font-size: 3.5rem;
     font-family: 'Alegreya Sans SC', sans-serif;
     color:#08521C;
     margin-bottom: 2%;
+    text-align:center;
 }
-.ourApp p{
+.mainContent div p{
     font-size: 1.5rem;
     font-weight:520;
     line-height: 1.5;
+    text-align: center;
     color:white;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto 15% 2.5% 15%;
 }
 .mountain{
     max-height:1000px;
@@ -192,20 +179,6 @@ nav.accountLinks{
     flex-direction: column;
     align-items: center;
     margin:2% 0% 2% 0%;
-}
-.you h2{
-    font-size: 3.5rem;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    color:#08521C;
-    margin-bottom: 2%;
-}
-.you p{
-    font-size: 1.5rem;
-    font-weight:520;
-    line-height: 1.5;
-    color:white;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 footer div{
     background-color:#22803B;
