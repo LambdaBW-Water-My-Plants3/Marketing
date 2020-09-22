@@ -41,14 +41,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,500&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
 *{
 	box-sizing:border-box;
     max-width:100%;
     font-size: 62.5%;
     background-color: #9DD1AB;
     font-family: 'Crimson Text', serif;
+
 }
 
 header{
@@ -65,7 +67,7 @@ header{
 h1{
     font-size: 2.8rem;
     color:white;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     width:100%;
     margin:5%;
     background-color:#22803B;
@@ -78,7 +80,7 @@ nav.links{
 }
 .links a{
     color:white;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     text-decoration: none;
     margin:1% 2% 1% 2%;
     background-color:#22803B;
@@ -97,7 +99,7 @@ nav.accountLinks{
 }
 .accountLinks a{
     color:white;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     text-decoration: none;
     padding:1%;
     background-color:#22803B;
@@ -132,12 +134,15 @@ nav.accountLinks{
     margin:2% 0% 2% 0%;
 }
 .organize h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
     color:#08521C;
     margin-bottom: 2%;
 }
 .organize p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
     color:white;
     margin-left: 15%;
     margin-right: 15%;
@@ -149,12 +154,15 @@ nav.accountLinks{
     margin:2% 0% 2% 0%;
 }
 .forget h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
     color:#08521C;
     margin-bottom: 2%;
 }
 .forget p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
     color:white;
     margin-left: 15%;
     margin-right: 15%;
@@ -166,12 +174,15 @@ nav.accountLinks{
     margin:2% 0% 2% 0%;
 }
 .record h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
     color:#08521C;
     margin-bottom: 2%;
 }
 .record p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight:520;
+    line-height: 1.5;
     color:white;
     margin-left: 15%;
     margin-right: 15%;
