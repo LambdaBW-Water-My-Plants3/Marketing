@@ -215,9 +215,8 @@
     }
     
     .accountLinks a:hover {
-        border-radius: 5px;
+        color: rgb(202, 140, 110);
         transition: 0.5s;
-        color: black;
     }
     
     .headerImg {
@@ -285,6 +284,7 @@
         display: flex;
         background-color: #22803B;
         justify-content: space-between;
+        margin-bottom: 0%;
     }
     /*styles for Articles page */
     
@@ -328,7 +328,7 @@
         color: rgb(202, 140, 110);
         transition: 0.5s;
     }
-    /* styles for Articles pages */
+    /* styles for SubArticles pages */
     
     .plantCareSection,
     .bestTimeSection,
@@ -434,6 +434,12 @@
             padding: 5% 3%;
             text-align: center;
         }
+        .links a:hover {
+            background-color: #22803B;
+            color: rgb(202, 140, 110);
+            transition: 0.5s;
+            border-radius: 0px;
+        }
         .headerImg {
             max-height: 250px;
         }
@@ -451,6 +457,58 @@
         .intro p {
             font-size: 1.5rem;
             margin: 2%;
+        }
+        /*queries for article page */
+        .mainContentArticles {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .mainContentArticles div {
+            width: 90%;
+            margin: 4% 0%;
+        }
+        .mainContentArticles a {
+            margin-top: 5%;
+            font-size: 4rem;
+        }
+        .mainContentArticles div img {
+            width: 700px;
+            height: 600px;
+        }
+        .plantCare,
+        .bestTime,
+        .spurts,
+        .potting101 {
+            padding: 0%;
+        }
+        /*queries for SUBarticles page */
+        .plantCareSection,
+        .bestTimeSection,
+        .spurtsSection,
+        .potting101Section {
+            padding: 4%;
+        }
+        .plantCareSection img,
+        .bestTimeSection img,
+        .spurtsSection img,
+        .potting101Section img {
+            width: 50rem;
+            height: 30rem;
+        }
+        .plantCareSection h2,
+        .bestTimeSection h2,
+        .spurtsSection h2,
+        .potting101Section h2 {
+            font-size: 3.5rem;
+            padding: 0% 5%;
+        }
+        .plantCareText,
+        .bestTimeText,
+        .spurtsText,
+        .potting101Text {
+            font-size: 1.8rem;
+            margin: 0% 8%;
         }
     }
     /* media queries for 800px */
@@ -508,6 +566,52 @@
             font-size: 1.5rem;
             margin: 4%;
         }
+        /*queries for article page */
+        .mainContentArticles {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .mainContentArticles div {
+            width: 90%;
+            margin: 4% 0%;
+        }
+        .mainContentArticles a {
+            margin-top: 5%;
+            font-size: 3.2rem;
+        }
+        .mainContentArticles div img {
+            width: 500px;
+            height: 400px;
+        }
+        /*queries for SUBarticles page */
+        .plantCareSection,
+        .bestTimeSection,
+        .spurtsSection,
+        .potting101Section {
+            padding: 0%;
+        }
+        .plantCareSection img,
+        .bestTimeSection img,
+        .spurtsSection img,
+        .potting101Section img {
+            width: 36rem;
+            height: 23rem;
+        }
+        .plantCareSection h2,
+        .bestTimeSection h2,
+        .spurtsSection h2,
+        .potting101Section h2 {
+            font-size: 3.6rem;
+            padding: 0% 5%;
+        }
+        .plantCareText,
+        .bestTimeText,
+        .spurtsText,
+        .potting101Text {
+            font-size: 1.6rem;
+            margin: 5% 10%;
+        }
     }
     /* media queries for 600px */
     
@@ -557,5 +661,47 @@
         .forget p,
         .intro p {
             font-size: 1.2rem;
+        }
+        /*queries for article page */
+        .mainContentArticles {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .mainContentArticles div {
+            width: 90%;
+            margin: 4% 0%;
+        }
+        .mainContentArticles a {
+            margin-top: 5%;
+            font-size: 3.2rem;
+        }
+        /*queries for SUBarticles page */
+        .plantCareSection,
+        .bestTimeSection,
+        .spurtsSection,
+        .potting101Section {
+            padding: 4%;
+        }
+        .plantCareSection img,
+        .bestTimeSection img,
+        .spurtsSection img,
+        .potting101Section img {
+            width: 32rem;
+            height: 20rem;
+        }
+        .plantCareSection h2,
+        .bestTimeSection h2,
+        .spurtsSection h2,
+        .potting101Section h2 {
+            font-size: 3rem;
+            padding: 0% 5%;
+        }
+        .plantCareText,
+        .bestTimeText,
+        .spurtsText,
+        .potting101Text {
+            font-size: 1.6rem;
+            margin: 0% 10%;
         }
     }
