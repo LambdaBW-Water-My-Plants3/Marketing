@@ -366,6 +366,7 @@ footer div {
 .potting101Section img {
     width: 60rem;
     height: 30rem;
+    margin-bottom: 2%;
 }
 
 .plantCareSection h2,
@@ -417,6 +418,36 @@ footer div {
 
 /* Media queries starts here */
 
-@media (max-width: 600px) {}
-
-@media (max-width: 768px) {}
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+        border: 2px solid brown;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2% 0%;
+    }
+    .links a {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0;
+        border: 2px solid red;
+        text-align: center;
+    }
+    nav.links {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid yellow;
+    }
+    .accountLinks {
+        border: 2px solid red;
+        margin: 2% 0;
+    }
+    .intro h2 {
+        font-size: 2rem;
+    }
+}
