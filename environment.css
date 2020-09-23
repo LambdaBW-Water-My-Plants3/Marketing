@@ -280,7 +280,6 @@ footer div{
     header{
         display:flex;
         flex-direction: column;
-        
     }
     div.title{
         width:100%;
@@ -323,6 +322,4 @@ footer div{
         font-size:1.2rem;
         width:15%;
     }
-    
-    
 }
