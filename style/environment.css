@@ -1,0 +1,492 @@
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+        max-width: 100%;
+        font-size: 62.5%;
+        background-color: #9DD1AB;
+        font-family: 'Crimson Text', serif;
+    }
+    /* header */
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #22803B;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .title {
+        background-color: #22803B;
+    }
+    
+    h1 {
+        font-size: 2.8rem;
+        font-weight: 500;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        width: 100%;
+        margin: 5%;
+        background-color: #22803B;
+    }
+    
+    h1 a {
+        text-decoration: none;
+        color: white;
+        background-color: #22803B;
+    }
+    
+    nav.links {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2rem;
+        width: 35%;
+        background-color: #22803B;
+    }
+    
+    .links a {
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 1% 2% 1% 2%;
+        background-color: #22803B;
+        padding: 2%;
+        transition: 0.5s;
+    }
+    
+    .links a:hover {
+        background-color: #22803B;
+        color: rgb(202, 140, 110);
+        transition: 0.5s;
+        border-radius: 0px;
+    }
+    
+    nav.accountLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 500;
+        width: 10%;
+        text-align: center;
+        background-color: whitesmoke;
+        color: #08521C;
+    }
+    
+    .accountLinks a {
+        color: #08521C;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        text-decoration: none;
+        padding: 1%;
+        background-color: whitesmoke;
+    }
+    
+    .accountLinks a:hover {
+        color: rgb(202, 140, 110);
+        transition: 0.5s;
+    }
+    
+    .headerImg {
+        max-height: 250px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    
+    .headerImg img {
+        width: 100%;
+    }
+    /* end of header */
+    
+    .mainContent {
+        margin: 5% 3% 5% 3%;
+    }
+    
+    .mainContent img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 25px;
+    }
+    
+    .landscape {
+        max-height: 1000px;
+        width: 60%;
+        margin: 0% auto 2% auto;
+        max-height: 800px
+    }
+    
+    .us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% 0% 2% 0%;
+    }
+    
+    .iceBerg {
+        display: flex;
+        max-height: 550px;
+        width: 50%;
+        margin: 0% auto 2% auto;
+    }
+    
+    .iceBerg img {
+        border: 3px white solid;
+        border-radius: 0px;
+    }
+    
+    .ourApp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% 0% 2% 0%;
+    }
+    
+    .ourApp2 {
+        align-items: center;
+        margin: 2% 0% 2% 0%;
+    }
+    
+    .mainContent div h2 {
+        font-size: 3.5rem;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #08521C;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    
+    .mainContent div p {
+        font-size: 1.5rem;
+        font-weight: 520;
+        line-height: 1.5;
+        text-align: center;
+        color: white;
+        margin: auto 15% 2.5% 15%;
+    }
+    
+    .globe {
+        max-height: 600px;
+        width: 50%;
+        margin: 0% auto 3% auto;
+    }
+    
+    .globe img {
+        border: 3px #08521C solid;
+        border-radius: 0px;
+        max-height: 600px;
+    }
+    
+    .you {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% 0% 2% 0%;
+    }
+    
+    footer div {
+        background-color: #22803B;
+    }
+    
+    .footerLinks {
+        display: flex;
+        background-color: #22803B;
+        justify-content: space-between;
+        margin-bottom: 0%;
+    }
+    
+    @media (max-width: 1344px) {
+        .title h1 {
+            font-size: 2.8rem;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 2% 0%;
+        }
+        .links a {
+            display: flex;
+            font-size: 1.8rem;
+            width: 100%;
+            margin: 0;
+            height: 70%;
+            text-align: center;
+        }
+        nav.links {
+            width: 100%;
+            margin: 0 auto;
+            align-items: center;
+        }
+        nav.accountLinks {
+            margin: 1% 1%;
+            width: 25%;
+        }
+        .accountLinks a {
+            font-size: 2.2rem;
+            padding: 5% 3%;
+            text-align: center;
+        }
+        .links a:hover {
+            background-color: #22803B;
+            color: rgb(202, 140, 110);
+            transition: 0.5s;
+            border-radius: 0px;
+        }
+        .headerImg {
+            max-height: 250px;
+        }
+        .intro h2,
+        .record h2,
+        .forget h2,
+        .organize h2 {
+            font-size: 4rem;
+            text-align: center;
+            margin: 1%;
+        }
+        .record p,
+        .organize p,
+        .forget p,
+        .intro p {
+            font-size: 1.5rem;
+            margin: 2%;
+        }
+        .mainContent div p {
+            font-size: 1.5rem;
+            font-weight: 520;
+            line-height: 1.5;
+            text-align: center;
+            color: white;
+            margin: auto 7% 2.5% 7%;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        .mainContent div p {
+            font-size: 1.5rem;
+            font-weight: 520;
+            line-height: 1.5;
+            text-align: center;
+            color: white;
+            margin: auto 7% 2.5% 7%;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .title h1 {
+            font-size: 3.5rem;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 2% 0%;
+        }
+        nav.links {
+            justify-content: space-evenly;
+            margin: 0 auto;
+        }
+        .links a {
+            font-size: 1.3rem;
+            width: 22%;
+            margin: 0;
+            text-align: center;
+            padding: 2% 0% 2% 2.5%;
+        }
+        nav.links {
+            width: 100%;
+            margin: 0 auto;
+        }
+        nav.accountLinks {
+            margin: 1% 1%;
+            width: 35%;
+        }
+        .accountLinks a {
+            font-size: 2rem;
+            padding: 5% 3%;
+            text-align: center;
+        }
+        .headerImg {
+            max-height: 200px;
+        }
+        .mainContent img {
+            width: 100%;
+        }
+        .mainContent div h2 {
+            font-size: 2.5rem;
+        }
+        .mainContent div p {
+            line-height: 1.2;
+            margin: auto 5% 2.5% 5%;
+            font-size: 1.3rem;
+        }
+        .footerLinks .accountLinks {
+            font-size: 1.2rem;
+            width: 15%;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .title h1 {
+            font-size: 2.5rem;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 2% 0%;
+        }
+        .links a {
+            font-size: 1.5rem;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+        }
+        nav.links {
+            width: 100%;
+            margin: 0 auto;
+        }
+        nav.accountLinks {
+            margin: 1% 1%;
+            width: 35%;
+        }
+        .accountLinks a {
+            font-size: 1.2rem;
+            padding: 5% 3%;
+            text-align: center;
+        }
+        .headerImg {
+            max-height: 150px;
+        }
+    }
