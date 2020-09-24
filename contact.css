@@ -91,7 +91,6 @@ nav.links{
 .links a:hover{
     background-color: white;
     color: #08521C;
-    border-radius:35px;
 }
 nav.accountLinks{
     font-size: 2rem;
@@ -111,7 +110,6 @@ nav.accountLinks{
 .accountLinks a:hover{
     background-color: white;
     color: #08521C;
-    border-radius: 35px;
 }
 .headerImg{
     max-height: 250px;
