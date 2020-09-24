@@ -188,9 +188,10 @@
     }
     
     .links a:hover {
-        background-color: white;
-        color: #08521C;
-        border-radius: 35px;
+        background-color: #22803B;
+        color: rgb(202, 140, 110);
+        transition: 0.5s;
+        border-radius: 0px;
     }
     
     nav.accountLinks {
@@ -443,6 +444,7 @@
         .headerImg {
             max-height: 250px;
         }
+        /* styles for home page */
         .intro h2,
         .record h2,
         .forget h2,
@@ -552,6 +554,7 @@
         .headerImg {
             max-height: 200px;
         }
+        /* qureies for main content of home page */
         .intro h2,
         .record h2,
         .forget h2,
