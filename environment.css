@@ -184,6 +184,7 @@ nav.accountLinks{
 .globe img{
     border: 3px #08521C solid;
     border-radius:0px;
+    max-height:600px;
 }
 .you{
     display:flex;
